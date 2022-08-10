@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="X-Rocket Financial serving to over million customers all over the world. Contact us to get the best financial returns">
+    <meta name="keywords" content="Financial Solutions, Financial Advise, X-Rocket, Accounting,">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <title>Rocket Money! | Read Our Post</title>
+</head>
+
+<body id="home">
+    <header class="hero blog">
+        <div class="navbar top" id="navbar">
+            <h1 class="logo">
+                <span class="text-primary rocket-logo"><i class="fas fa-rocket"></i> Moon</span>-Rocket-<span
+                    class="text-primary">ey!</span>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#cases">Cases</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Blog</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="post">
+            <h2>Blog Post Three</h2>
+            <p class="meta">
+                <i class="fas fa-user"></i> Posted by <strong>John Doe</strong> | April 27 2022
+            </p>
+            <img src="./img/blog/blog3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum unde beatae quibusdam. Nobis
+                repellendus, odio voluptatem dicta dolore delectus ut porro? Inventore deleniti animi sequi cumque
+                quasi, beatae culpa!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum facilis veniam inventore, sint
+                temporibus accusantium corrupti libero amet perferendis saepe dicta ad sunt placeat accusamus eos
+                eveniet blanditiis sapiente quam quis repudiandae eaque doloribus voluptatem eum. Labore error cum
+                provident dolore? Nemo autem maiores similique harum quos magnam esse corrupti, commodi vitae voluptas
+                veritatis quaerat omnis accusantium quae eius laudantium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio beatae unde perspiciatis veritatis
+                soluta consequatur eveniet dignissimos quaerat voluptates nam laudantium officia nemo velit eos deleniti
+                ipsam delectus doloribus iure explicabo, ex a ducimus. In velit odit eius incidunt sapiente. Nihil ipsa,
+                doloribus ab perferendis corrupti dicta quia voluptatibus provident!</p>
+        </section>
+    </main>
+    <!-- About Icons -->
+
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Copyright &copy; 2022 <span class="text-primary"><i class="fas fa-rocket"></i>Moon</span>-Rocket-<span
+                class="text-primary">ey!</span></p>
+
+    </footer>
+    <script>
+        const navbar = document.querySelector('.navbar');
+        let scrolled = false;
+
+        window.onscroll = function () {
+            if (window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+                if (!scrolled) {
+                    navbar.style.transform = 'translateY(-70px)';
+                }
+                setTimeout(() => {
+                    navbar.style.transform = 'translateY(0px)';
+                    scrolled = true;
+                }, 200)
+            } else {
+                navbar.classList.add('top');
+                scrolled = false;
+            }
+        }
+    </script>
+</body>
+
+</html>
