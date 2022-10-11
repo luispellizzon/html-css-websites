@@ -6,6 +6,6 @@
 
 ### :zap: Links :
 
-- :hotel: Cork Hotel :;
+- :hotel: Cork Hotel : https://html-css-websites.vercel.app/
 - :rocket: Moon-Rocket-ey! : https://lucent-speculoos-cc69a8.netlify.app
 - :newspaper: NewsGrid : https://super-sable-6b8ae1.netlify.app
